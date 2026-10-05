@@ -68,7 +68,7 @@ const FullstackSkills: ExternalSite[] = [
     {
         name: "NodeJS",
         link: "https://nodejs.org/",
-        simpleIconName: "Node.js",
+        simpleIconName: "NodeJS",
         backgroundColor: "#5FA04E",
     },
     {
@@ -80,13 +80,13 @@ const FullstackSkills: ExternalSite[] = [
     {
         name: "ExpressJS",
         link: "https://expressjs.com/",
-        simpleIconName: "Express",
+        simpleIconName: "ExpressJS",
         backgroundColor: "#000000",
     },
     {
         name: "ThreeJS",
         link: "https://threejs.org/",
-        simpleIconName: "Three.js",
+        simpleIconName: "ThreeJS",
         backgroundColor: "#000000",
     },
     {
@@ -357,14 +357,14 @@ const JobExperience: ExperienceSection = {
     experienceSectionTitle: "Work Experience",
     experiences: [
         {
-            orgLink: "https://acquireconveyancing.com.au/",
+            orgLink: "https://oracle.com/",
             orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
+            orgName: "Oracle",
             positions: [
                 {
-                    positionName: "ICT Administrator / Conveyancing Assistant",
-                    duration: "Apr 2024 - Present",
-                    location: "Adelaide, SA",
+                    positionName: "Senior Member of Technical Staff",
+                    duration: "July 2022 - Sept 2025",
+                    location: "Bengaluru, KA",
                     locationType: "On-Site",
                     jobType: "Part-time",
                     workPoints: [
@@ -378,14 +378,14 @@ const JobExperience: ExperienceSection = {
             ]
         },
         {
-            orgLink: "https://sognos.com.au/",
+            orgLink: "https://ltm.com/",
             orgLogoPath: AssetPaths.WORK_SOGNOS_LOGO,
-            orgName: "Sognos Solutions",
+            orgName: "LTIMindtree",
             positions: [
                 {
-                    positionName: "Junior Dynamics 365 Administrator",
-                    duration: "May 2025 - Oct 2025",
-                    location: "Sydney, NSW",
+                    positionName: "Senior Product Engineer",
+                    duration: "Sept 2020 - June 2022",
+                    location: "Bengaluru, KA",
                     locationType: "Remote",
                     jobType: "Contract",
                     workPoints: [
@@ -397,14 +397,14 @@ const JobExperience: ExperienceSection = {
             ]
         },
         {
-            orgLink: "https://www.asite.com/",
+            orgLink: "https://www.regalix.com/",
             orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
-            orgName: "Asite Solution",
+            orgName: "Regalix",
             positions: [
                 {
-                    positionName: "Jr Software Engineer",
-                    duration: "Jun 2023 - Mar 2024",
-                    location: "Ahmedabad, India",
+                    positionName: "Software Developer",
+                    duration: "Sept 2018 - Nov 2020",
+                    location: "Bengaluru, KA",
                     locationType: "Hybrid",
                     jobType: "Full-time",
                     workPoints: [
@@ -596,13 +596,13 @@ const AchievementInvolvement: ProjectSection = {
 // Degrees
 const BachelorsDegree: EducationSection = {
     degreeName: "Bachelor of Engineering",
-    majorName: "Computer Engineering",
-    duration: "Jul 2019 - May 2023",
-    universityName: "Gujarat Technological University (GTU)",
-    campusName: "VGEC",
+    majorName: "Computer Science Engineering",
+    duration: "Sept 2012 - June 2016",
+    universityName: "Visvesvaraya Technological University (VTU)",
+    campusName: "RGIT",
     logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
     gpa: "6.9 / 7.0",
-    websiteLink: "https://www.gtu.ac.in/",
+    websiteLink: "https://www.vtu.ac.in/",
     studyPoints: [
         "Studied foundational subjects like Data Structures, Database Management Systems, Discrete Mathematics, and Operating Systems, building a strong base in computer science. 🧠💻",
         "Explored Object-Oriented Programming, Software Engineering, Computer Networks, and Microprocessor & Interfacing, bridging software development with hardware understanding. ⚙️",
@@ -611,14 +611,14 @@ const BachelorsDegree: EducationSection = {
 }
 
 const MastersDegree: EducationSection = {
-    degreeName: "Master of Information Technology",
-    majorName: "Cyber Security",
-    duration: "Feb 2024 - Dec 2025",
-    universityName: "University of South Australia (UniSA)",
-    campusName: "Mawson Lakes",
+    degreeName: "Pre University College",
+    majorName: "Electronics",
+    duration: "May 2010 - Mar 2012",
+    universityName: "Karnataka School Examination and Assessment Board (KSEAB)",
+    campusName: "St. Joseph's College",
     logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
     gpa: "6.7 / 7.0",
-    websiteLink: "https://i.unisa.edu.au/students/",
+    websiteLink: "hhttps://pue.karnataka.gov.in/",
     studyPoints: [
         "Built expertise in Security Principles, Network Infrastructure, and Risk Management, laying a solid foundation in cybersecurity fundamentals. 🔐",
         "Gained deep knowledge in Security Architecture, Network Security, and Critical Infrastructure Protection, alongside insights into Cyber Criminal Behavior and Australian Cyber Law. ⚙️🛡️",
