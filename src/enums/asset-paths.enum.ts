@@ -25,7 +25,7 @@ export enum AssetPaths {
     WORK_REGALIX_LOGO = "assets/experience-images/regalix-logo.png",
     WORK_TECHURATE_LOGO = "assets/experience-images/techurate-logo.png",
     WORK_KIWI_LOGO = "assets/experience-images/kiwi-logo.png",
-    WORK_SA_TILING_LOGO = "assets/experience-images/sa-tiling-logo.png",
+    WORK_EAGLE_VIEW_LOGO = "assets/experience-images/eagleview-logo.svg",
     WORK_RAS_LOGO = "assets/experience-images/ras-logo.png",
     WORK_WORKXMATE_LOGO = "assets/experience-images/workxmate-logo.png",
     WORK_ADVENT_OF_CODE_LOGO = "assets/experience-images/advent-of-code-logo.jpeg",

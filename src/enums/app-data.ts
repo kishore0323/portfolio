@@ -226,18 +226,6 @@ const DesignSkills: ExternalSite[] = [
     },
 ];
 
-// Design section
-const DesignSection: SkillSection = {
-    sectionTitle: "UI/UX Design",
-    imagePath: AssetPaths.UI_UX_DESIGN_SVG,
-    skillLinks: DesignSkills,
-    skillsList: [
-        "Designing highly attractive and responsive user interface for web applications",
-        "Customizing logo designs, creating visiting cards and virtual cards from scratch",
-        "Creating the flow of application functionalities to optimize user experience",
-    ]
-}
-
 // Design skills
 const DigitalSolutionSkills: ExternalSite[] = [
 
@@ -261,16 +249,16 @@ const PersonalProjects: ProjectSection = {
     sectionSubtitle: "🚀 Showcasing innovative solutions and real-world applications built with cutting-edge technologies.",
     entities: [
         {
-            title: "ThreatLens AI for Velociraptor",
+            title: "Global Automation Technology ",
             coverImagePath: AssetPaths.PROJECT_AI_VELOCIRAPTOR,
             liveLink: AssetPaths.PROJECT_AI_VELOCIRAPTOR_PDF,
             githubLink: "https://github.com/dhruvil-unisa/ai-velociraptor/",
             description: "🤖 A cutting-edge AI-powered Velociraptor version built with the LLM integration using a custom MCP, prompt engineering, and fine tuning.",
-            techStack: ["Python", "Go", "Ollama", "llama.cpp"],
+            techStack: ["Java", "Spring", "Kafka", "OracleDB"],
             year: 2025,
         },
         {
-            title: "Web-Based 3D IFC File Viewer",
+            title: "Lumin",
             coverImagePath: AssetPaths.PROJECT_THREEJS_IFC_VIEWER,
             liveLink: "https://dhruvilrathod.github.io/webifcviewer/",
             githubLink: "https://github.com/dhruvilrathod/three_ifc_angular",
@@ -279,7 +267,7 @@ const PersonalProjects: ProjectSection = {
             year: 2022
         },
         {
-            title: "Customizable Multi-Select Dropdown",
+            title: "Carbon Avoidence Meter",
             coverImagePath: AssetPaths.PROJECT_CUSTOM_DROPDOWN,
             githubLink: "https://github.com/dhruvilrathod/custom-dropdown/tree/resource-tree-utility",
             description: "🌲 An Angular-based, asynchronous multi-select dropdown designed for tree-structured data with custom validation. It's a powerful replacement for jQuery's Select2.",
@@ -288,7 +276,7 @@ const PersonalProjects: ProjectSection = {
             branch: "resource-tree-utility"
         },
         {
-            title: "Learning Management System",
+            title: "NBS Banking",
             coverImagePath: AssetPaths.PROJECT_LMS_APP,
             githubLink: "https://github.com/dhruvilrathod/lms-asite",
             description: "📚 A production-grade frontend for a Learning Management System, designed with scalability in mind to deliver a seamless and efficient user experience.",
@@ -296,7 +284,7 @@ const PersonalProjects: ProjectSection = {
             year: 2023
         },
         {
-            title: "Angular + NestJS Boilerplate",
+            title: "NFC Banking",
             coverImagePath: AssetPaths.PROJECT_ANGULAR_NEST_DOCKER,
             githubLink: "https://github.com/dhruvilrathod/sample-angular-nest",
             description: "🛠️ A production-grade boilerplate integrating Angular, NestJS, and Nginx for seamless fullstack development. Perfect for kickstarting robust and scalable web applications.",
@@ -310,14 +298,6 @@ const PersonalProjects: ProjectSection = {
             description: "🏥 Transformed Figma designs into a fully functional, user-friendly dashboard for a Hospital Management System, ensuring precision and intuitive interface.",
             techStack: ["Angular", "PrimeNG", "PrimeFlex", "Figma"],
             year: 2024
-        },
-        {
-            title: "Cross-Platform Music Player",
-            coverImagePath: AssetPaths.PROJECT_MUSIC_PLAYER,
-            githubLink: "https://github.com/dhruvilrathod/music_player",
-            description: "🎵 Developed with Angular and NestJS, this music player evolved into a fullstack app and was wrapped with ElectronJS for a seamless desktop experience.",
-            techStack: ["Angular", "NestJS", "ElectronJS", "ExpressJS"],
-            year: 2023
         }
     ]
 }
@@ -380,11 +360,10 @@ const JobExperience: ExperienceSection = {
                     locationType: "Hybrid",
                     jobType: "Full-time",
                     workPoints: [
-                        "Managing internal IT Administration operations and technical support with AAD, Veeam backup and recovery, and configuration of internal NAS with Synology hardware. 🖥️🔧",
-                        "Ensured secure management of sensitive data with top-notch IT support. 🔒",
-                        "Streamlined property searches by liaising with government agencies. 🏡",
-                        "Prepared legal documents like Cooling Off Forms, Nominations, and Addendums. 📝",
-                        "Optimized software workflows with precise data entry and customized templates in CATS and PEXA. ⚙️",
+                        "Optimized a Translation-as-a-Service data pipeline using Kafka Streams, resolving critical memory bottlenecks to increase processing throughput 6x and decrease peak-load system congestion by 24%.",
+                        "Reduced recurring production incidents by 40% by leading root-cause analysis on Translation REST APIs and correlating distributed logs across microservices to ship permanent hotfixes. 🏡",
+                        "Architected and delivered a high-performance RBAC-based Analytics and Insights module, enabling real-time data visualization and representation of application usage and metrics to drive data-backed stakeholder decisions. 📝",
+                        "Automated translation storage cleanup for deprecated products by implementing a 3-month retention policy alongside a customizable file-keeping feature which reduced data size by 60%. ⚙️",
                     ]
                 }
             ]
@@ -401,9 +380,9 @@ const JobExperience: ExperienceSection = {
                     locationType: "Hybrid",
                     jobType: "Full-time",
                     workPoints: [
-                        "Developed and configured Canvas & Model-driven Apps, Power Automate flows, and Power BI dashboards, supporting integrations with Microsoft 365, Dynamics 365 CRM, and Dataverse using JavaScript, C# and .NET.",   
-                        "Worked with Dataverse and structured datasets to extract, analyse, and present insights to stakeholders.",
-                        "Assisted with testing and documentation, ensuring to deliver high-quality & efficient Power Platform solutions with business intelligence for Healthcare, Disability, Aged-care and Field services sectors.",
+                        "Implemented native querying of the Dremio, Snowflake data for the faster delivery of the solution on the Fosfor platform.",   
+                        "Integrated AWS S3 data source with Dremio data warehouse for ease of access to customer data in product from different sources and developed RESTful API for data ingestion and analytics.",
+                        "Developed and maintained Java Maven Packages to support authentication, event logging, configuration & secrets management (with Hashicorp Vault, AWS Secrets Manager or Kubernetes Secrets) used across microservices.",
                     ]
                 }
             ]
@@ -420,9 +399,9 @@ const JobExperience: ExperienceSection = {
                     locationType: "Office",
                     jobType: "Full-time",
                     workPoints: [
-                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
-                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
-                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                        "Designed and developed microservices based innovative proactive support platform for VMware Skyline using Java, Spring Boot, Web, Cloud, Batch, MongoDB, Angular, CI/CD, deployed on Pivotal Cloud Foundry (PCF) platform 🚀📋",
+                        "Designed and developed AWS Serverless application for EagleView that integrates Salesforce FSL with Twilio services. 📂🔍",
+                        "Developed ETL application to transform and migrate the data from OrientDB to MongoDB. 🐞✅",
                     ]
                 }
             ]
@@ -430,7 +409,7 @@ const JobExperience: ExperienceSection = {
          {
             orgLink: "https://www.techurate.com/",
             orgLogoPath: AssetPaths.WORK_TECHURATE_LOGO,
-            orgName: "Regalix",
+            orgName: "Techurate",
             positions: [
                 {
                     positionName: "Software Developer",
@@ -439,9 +418,8 @@ const JobExperience: ExperienceSection = {
                     locationType: "Office",
                     jobType: "Full-time",
                     workPoints: [
-                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
-                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
-                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                        "Worked on migration of the monolithic application into microservices architecture by breaking down spring mvc application into SpringBoot microservices modules based on domain driven design. 🚀📋",
+                        "Implemented payment and account services for NBS and NFC banks using Java, SpringBoot, REST, SOAP, and OracleDB by integrating with Flexcube core banking services to handle secure retail and corporate payment transactions. 📂🔍",
                     ]
                 }
             ]
@@ -454,55 +432,19 @@ const FreelancingExperience: ExperienceSection = {
     experienceSectionTitle: "Freelancing",
     experiences: [
         {
-            orgLink: "https://southaustraliatiling.com.au/",
-            orgLogoPath: AssetPaths.WORK_SA_TILING_LOGO,
-            orgName: "South Australia Tiling",
+            orgLink: "https://www.eagleview.com/",
+            orgLogoPath: AssetPaths.WORK_EAGLE_VIEW_LOGO,
+            orgName: "EagleView",
             positions: [
                 {
                     positionName: "Professional Freelancer",
                     duration: "2025",
-                    location: "Adelaide, WA",
+                    location: "Rochester, NY",
                     locationType: "Remote",
                     jobType: "Contract",
                     workPoints: [
-                        "Designed and developed a visually appealing website to highlight the high-quality work of a South Australian tiling and bathroom renovation business, improving their online presence.📊",
-                        "Utilized Server-Side Rendering (SSR) and Static Site Generation (SSG) to enhance search engine visibility and drive organic traffic to the website. 🚀",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://kiwifinance.com.au/",
-            orgLogoPath: AssetPaths.WORK_KIWI_LOGO,
-            orgName: "Kiwi Finance",
-            positions: [
-                {
-                    positionName: "Professional Freelancer",
-                    duration: "2025",
-                    location: "Perth, WA",
-                    locationType: "Remote",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Designed and developed an SEO-friendly website with financial calculators, and a custom contact form tailored to Astute Financial's requirements. 🌐📊",
-                        "Streamlined data collection and client inquiries by integrating the contact form with Google Sheets and Gmail. 📋",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://rasfinance.com.au/",
-            orgLogoPath: AssetPaths.WORK_RAS_LOGO,
-            orgName: "RAS Finance",
-            positions: [
-                {
-                    positionName: "Professional Freelancer",
-                    duration: "2024",
-                    location: "Adelaide, SA",
-                    locationType: "Hybrid",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Built a dynamic website featuring financial calculators, a CMS for articles, and a sleek contact form. 📊📝",
-                        "Streamlined client inquiries by integrating the contact form with Google Sheets and Gmail. 📧📋✨",
+                        "EagleView is a geospatial technology company that captures high-resolution aerial and oblique (side-angle) images using specialized aircraft to create precise 3D property models and measurement reports.📊",
+                        "Engineered real-time Sales/Marketing analytics dashboards using AWS Redshift, S3, and Data Pipeline, cutting reporting latency by 70%, and architected an AWS serverless application integrating Salesforce FSL with Twilio to automate customer support communication, reducing manual effort for EagleView 🚀",
                     ]
                 }
             ]
@@ -510,74 +452,11 @@ const FreelancingExperience: ExperienceSection = {
     ]
 }
 
-// Internships Experience
-const InternshipExperience: ExperienceSection = {
-    experienceSectionTitle: "Internships",
-    experiences: [
-        {
-            orgLink: "https://asite.com/",
-            orgLogoPath: AssetPaths.WORK_ORACLE_LOGO,
-            orgName: "Asite Solution",
-            positions: [
-                {
-                    positionName: "UI Developer Intern",
-                    duration: "Feb 2023 - May 2023",
-                    location: "Ahmedabad, India",
-                    locationType: "Hybrid",
-                    jobType: "Full-time",
-                    workPoints: [
-                        "Led an 11-member team to design and implement the frontend architecture of an LMS using Angular, following the latest methodologies and best practices. 🚀💻",
-                        "Gained expertise in Angular, jQuery, SCSS, and DSA through personalized training and hands-on assignments during the internship. 🌟📊✨",
-                    ]
-                },
-                {
-                    positionName: "Software Engineering Intern",
-                    duration: "Jun 2022 — Jul 2022",
-                    location: "Ahmedabad, India",
-                    locationType: "On-Site",
-                    jobType: "Full-time",
-                    workPoints: [
-                        "Developed an innovative 3D IFC file viewer using Three.js, applying DSA concepts to create a tree-like structure for exploring model internals. 🌐🌳📐",
-                        "Deployed the Node.js backend on Heroku and hosted the frontend on GitHub Pages for seamless accessibility. 🚀💻✨",
-                    ]
-                }
-            ]
-        },
-        {
-            orgLink: "https://workxmate.com/",
-            orgLogoPath: AssetPaths.WORK_WORKXMATE_LOGO,
-            orgName: "WorkXMate Technologies Pvt. Ltd.",
-            positions: [
-                {
-                    positionName: "Angular Developer Internship",
-                    duration: "Feb 2022 — Mar 2022",
-                    location: "Noida, India",
-                    locationType: "Remote",
-                    jobType: "Part-time",
-                    workPoints: [
-                        "Designed and implemented an optimized, cross-browser-compatible Attendance Management Module. 🌐✔️",
-                        "Built a RESTful Node.js server integrated with Oracle DB for seamless code migration. 🚀📊",
-                        "Developed intuitive web forms with robust validation and error handling for a smooth user experience. 🖋️⚙️✨",
-                    ]
-                }
-            ]
-        },
-    ]
-}
-
 // Community Involvement
 const CommunityInvolvement: ProjectSection = {
     sectionTitle: "Community Involvement",
     entities: [
-        {
-            liveLink: "https://adventofcode.com/",
-            coverImagePath: AssetPaths.ACHIEVEMENT_AOC_PIC,
-            techStack: ["Python"],
-            title: "Advent of Code 2024",
-            description: "📅 Completed all Advent of Code 2024 problems within a personal deadline of 1 day each, showcasing strong DSA and problem-solving skills.🎯",
-            year: 2024,
-            githubLink: "https://github.com/dhruvilrathod/RSP/tree/master/advent_of_code",
-        },
+        
     ]
 }
 
@@ -585,23 +464,7 @@ const CommunityInvolvement: ProjectSection = {
 const AchievementInvolvement: ProjectSection = {
     sectionTitle: "Achievements",
     entities: [
-        {
-            liveLink: "https://www.linkedin.com/posts/dhruvilrathod_competitiveprogramming-codingchallenges-teamwork-activity-7291965632684695553-CTqM?utm_source=share&utm_medium=member_desktop&rcm=ACoAADi05s0B8nMLyX_mC2aovn2P6w6tNr-b3AA",
-            coverImagePath: AssetPaths.ACHIEVEMENT_CPC_RSP_WIN_PIC,
-            techStack: ["C++", "Python"],
-            title: "CPC X RSP 2025",
-            description: "🏆 Secured 3rd place in a high-stakes coding competition, tackling complex algorithms under pressure! Grateful for an incredible team and experience at CPC X RSP competition.",
-            year: 2025,
-        },
-        {
-            coverImagePath: AssetPaths.ACHIEVEMENT_UNISA_CHANCELLORS_LETTER_2024_PIC,
-            liveLink: "unisa-chancellors-letter-of-commandation-2024.html",
-            // liveLink: "public/unisa-chancellors-letter-of-commandation-2024.html",
-            techStack: ["Cisco", "FortiGate", "ISO 270001"],
-            title: "Chancellor's Commendation Letter (2024)",
-            description: "🚀 Awarded for academic excellence with a cumulative program GPA in the TOP 5% of all students, and invited to join the Golden Key International Honour Society.",
-            year: 2024,
-        },
+        
     ]
 }
 
@@ -658,7 +521,6 @@ export const AppConfig = {
     aboutMe: [                          // all the sections you want to show under "What I do?". 
         FullstackSection,
         CloudSection,
-        DesignSection,
         DigitalSolutionSection,
     ],
 
@@ -666,8 +528,8 @@ export const AppConfig = {
     projectsPageTitle: "Projects & Freelancing",    // Title of projects page
     projectsPageDescription: "My projects leverage a diverse range of cutting-edge technology tools. I specialize in building data science solutions and seamlessly deploying them as web applications using robust cloud infrastructure.",
     projectSections: [                  // Define and add a custom section if needed
-        FreelancingProjects,
         PersonalProjects,
+        FreelancingProjects
     ],
 
     // Experience page
@@ -675,7 +537,6 @@ export const AppConfig = {
     experiencePageDescription: "💼 From Corporate Giants to Creative Freelance Projects: A journey through internships, corporate, and helping local businesses.",
     experienceSections: [               // Define and add a custom section if needed
         JobExperience,
-        InternshipExperience,
         FreelancingExperience,
     ],
 
