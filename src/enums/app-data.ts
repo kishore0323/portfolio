@@ -42,6 +42,18 @@ const SocialMediaLinks: ExternalSite[] = [
 // Fullstack skills
 const FullstackSkills: ExternalSite[] = [
     {
+        name: "Java",
+        link: "https://java.com",
+        simpleIconName: "java",
+        backgroundColor: "#ED8B00",
+    },
+     {
+        name: "Spring",
+        link: "https://spring.io",
+        simpleIconName: "spring",
+        backgroundColor: "#00FF7F",
+    },
+    {
         name: "Angular",
         link: "https://angular.dev/",
         simpleIconName: "Angular",
@@ -60,13 +72,13 @@ const FullstackSkills: ExternalSite[] = [
         backgroundColor: "#1572B6",
     },
     {
-        name: "Sass",
-        link: "https://sass-lang.com/",
-        simpleIconName: "Sass",
+        name: "Hibernate",
+        link: "https://hibernate.org/",
+        simpleIconName: "hibernate",
         backgroundColor: "#CC6699",
     },
     {
-        name: "NodeJS",
+        name: "Java",
         link: "https://nodejs.org/",
         simpleIconName: "NodeJS",
         backgroundColor: "#5FA04E",
@@ -78,21 +90,21 @@ const FullstackSkills: ExternalSite[] = [
         backgroundColor: "#F7DF1E",
     },
     {
-        name: "ExpressJS",
-        link: "https://expressjs.com/",
-        simpleIconName: "ExpressJS",
+        name: "Apache Kafka",
+        link: "https://kafka.apache.org/",
+        simpleIconName: "apachekafka",
         backgroundColor: "#000000",
     },
     {
-        name: "ThreeJS",
-        link: "https://threejs.org/",
-        simpleIconName: "ThreeJS",
+        name: "Apache Maven",
+        link: "https://maven.apache.org/",
+        simpleIconName: "apachemaven",
         backgroundColor: "#000000",
     },
     {
-        name: "Tailwind CSS",
-        link: "https://tailwindcss.com/",
-        simpleIconName: "Tailwind CSS",
+        name: "Spring Boot",
+        link: "https://spring.io/projects/spring-boot",
+        simpleIconName: "springboot",
         backgroundColor: "#06B6D4",
     },
     {
@@ -102,10 +114,10 @@ const FullstackSkills: ExternalSite[] = [
         backgroundColor: "#7952B3",
     },
     {
-        name: "PrimeNG",
-        link: "https://primeng.org/",
-        simpleIconName: "PrimeNG",
-        backgroundColor: "#DD0031",
+        name: "Kubernetes",
+        link: "https://kubernetes.io/",
+        simpleIconName: "kubernetes",
+        backgroundColor: "#430098",
     },
 ];
 
@@ -161,16 +173,16 @@ const CloudSkills: ExternalSite[] = [
         backgroundColor: "#1488C6",
     },
     {
-        name: "Render",
-        link: "https://render.com/",
-        simpleIconName: "Render",
-        backgroundColor: "#000000",
+        name: "Jenkins",
+        link: "https://jenkins.com/",
+        simpleIconName: "jenkins",
+        backgroundColor: "#D33834",
     },
     {
-        name: "Heroku",
-        link: "https://www.heroku.com/",
-        simpleIconName: "Heroku",
-        backgroundColor: "#430098",
+        name: "Linux",
+        link: "https://www.linux.org/",
+        simpleIconName: "linux",
+        backgroundColor: "#FCC624",
     },
 ];
 
@@ -358,15 +370,15 @@ const JobExperience: ExperienceSection = {
     experiences: [
         {
             orgLink: "https://oracle.com/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
+            orgLogoPath: AssetPaths.WORK_ORACLE_LOGO,
             orgName: "Oracle",
             positions: [
                 {
                     positionName: "Senior Member of Technical Staff",
                     duration: "July 2022 - Sept 2025",
                     location: "Bengaluru, KA",
-                    locationType: "On-Site",
-                    jobType: "Part-time",
+                    locationType: "Hybrid",
+                    jobType: "Full-time",
                     workPoints: [
                         "Managing internal IT Administration operations and technical support with AAD, Veeam backup and recovery, and configuration of internal NAS with Synology hardware. 🖥️🔧",
                         "Ensured secure management of sensitive data with top-notch IT support. 🔒",
@@ -379,15 +391,15 @@ const JobExperience: ExperienceSection = {
         },
         {
             orgLink: "https://ltm.com/",
-            orgLogoPath: AssetPaths.WORK_SOGNOS_LOGO,
+            orgLogoPath: AssetPaths.WORK_LTIMINDTREE_LOGO,
             orgName: "LTIMindtree",
             positions: [
                 {
                     positionName: "Senior Product Engineer",
                     duration: "Sept 2020 - June 2022",
                     location: "Bengaluru, KA",
-                    locationType: "Remote",
-                    jobType: "Contract",
+                    locationType: "Hybrid",
+                    jobType: "Full-time",
                     workPoints: [
                         "Developed and configured Canvas & Model-driven Apps, Power Automate flows, and Power BI dashboards, supporting integrations with Microsoft 365, Dynamics 365 CRM, and Dataverse using JavaScript, C# and .NET.",   
                         "Worked with Dataverse and structured datasets to extract, analyse, and present insights to stakeholders.",
@@ -398,14 +410,33 @@ const JobExperience: ExperienceSection = {
         },
         {
             orgLink: "https://www.regalix.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
+            orgLogoPath: AssetPaths.WORK_REGALIX_LOGO,
             orgName: "Regalix",
             positions: [
                 {
                     positionName: "Software Developer",
                     duration: "Sept 2018 - Nov 2020",
                     location: "Bengaluru, KA",
-                    locationType: "Hybrid",
+                    locationType: "Office",
+                    jobType: "Full-time",
+                    workPoints: [
+                        "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
+                        "Designed a robust Angular reactive form and a customizable async dropdown for efficient file-folder tree searches, enhancing Record Retention Policy. 📂🔍",
+                        "Debugged and unit-tested code using Karma & Jasmine, achieving an impressive 96% coverage. 🐞✅",
+                    ]
+                }
+            ]
+        },
+         {
+            orgLink: "https://www.techurate.com/",
+            orgLogoPath: AssetPaths.WORK_TECHURATE_LOGO,
+            orgName: "Regalix",
+            positions: [
+                {
+                    positionName: "Software Developer",
+                    duration: "Jan 2017 - Sept 2020",
+                    location: "Bengaluru, KA",
+                    locationType: "Office",
                     jobType: "Full-time",
                     workPoints: [
                         "Built the Issue Tracker feature for the cBIM unit, integrating 30+ Angular components like side pane, image carousel, and quill editor. 🚀📋",
@@ -475,26 +506,7 @@ const FreelancingExperience: ExperienceSection = {
                     ]
                 }
             ]
-        },
-        {
-            orgLink: "https://acquireconveyancing.com.au/",
-            orgLogoPath: AssetPaths.WORK_ACQUIRE_LOGO,
-            orgName: "Acquire Conveyancing",
-            positions: [
-                {
-                    positionName: "Professional Freelancer",
-                    duration: "2023",
-                    location: "Adelaide, SA",
-                    locationType: "Remote",
-                    jobType: "Contract",
-                    workPoints: [
-                        "Crafted a professional logo, business cards, and responsive website using Illustrator. 🎨💼",
-                        "Set up a custom domain email and Office 365 with SharePoint for seamless operations. 📧🔗",
-                        "Developed and hosted an SEO-friendly website with a contact form to boost online presence. 🌐📈",
-                    ]
-                }
-            ]
-        },
+        }
     ]
 }
 
@@ -504,7 +516,7 @@ const InternshipExperience: ExperienceSection = {
     experiences: [
         {
             orgLink: "https://asite.com/",
-            orgLogoPath: AssetPaths.WORK_ASITE_LOGO,
+            orgLogoPath: AssetPaths.WORK_ORACLE_LOGO,
             orgName: "Asite Solution",
             positions: [
                 {
@@ -600,7 +612,7 @@ const BachelorsDegree: EducationSection = {
     duration: "Sept 2012 - June 2016",
     universityName: "Visvesvaraya Technological University (VTU)",
     campusName: "RGIT",
-    logoImagePath: AssetPaths.EDUCATION_GTU_LOGO,
+    logoImagePath: AssetPaths.EDUCATION_VTU_LOGO,
     gpa: "6.9 / 7.0",
     websiteLink: "https://www.vtu.ac.in/",
     studyPoints: [
@@ -616,9 +628,9 @@ const MastersDegree: EducationSection = {
     duration: "May 2010 - Mar 2012",
     universityName: "Karnataka School Examination and Assessment Board (KSEAB)",
     campusName: "St. Joseph's College",
-    logoImagePath: AssetPaths.EDUCATION_UNISA_LOGO,
+    logoImagePath: AssetPaths.EDUCATION_STJOSEPHS_LOGO,
     gpa: "6.7 / 7.0",
-    websiteLink: "hhttps://pue.karnataka.gov.in/",
+    websiteLink: "https://sjpuc.edu.in/",
     studyPoints: [
         "Built expertise in Security Principles, Network Infrastructure, and Risk Management, laying a solid foundation in cybersecurity fundamentals. 🔐",
         "Gained deep knowledge in Security Architecture, Network Security, and Critical Infrastructure Protection, alongside insights into Cyber Criminal Behavior and Australian Cyber Law. ⚙️🛡️",
@@ -629,13 +641,13 @@ const MastersDegree: EducationSection = {
 
 
 export const AppConfig = {
-    loaderSplashAnimation: true,        // enable or disable splash screen at the initialization of website
+    loaderSplashAnimation: false,        // enable or disable splash screen at the initialization of website
     logoName: "Kishore A",         // Signature font logo name in header
     name: "Kishore A",             // your name
     emailId: "kishorea0323@gmail.com",  // your email id
 
     // Google Form Contact Link
-    googleFormContactLink: "https://docs.google.com/forms/d/e/1FAIpQLSfMOsQhl_Lci5s_qrYN-LEWlJ3NoBag-Uyf17IGktExA5KDpw/viewform?usp=header",
+    googleFormContactLink: "https://forms.gle/82yYrSP4hkFyCPZe9",
 
     // Home page
     professionalTitle: "Development | Cyber Security | Freelancing",

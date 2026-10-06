@@ -7,7 +7,6 @@
 
 <p align="center"> 
     <a href="https://angular-master-portfolio.web.app/" target="_blank">
-    <img src="public/assets/images/ng-master-ss.png"></img>
   </a>
 </p>
 

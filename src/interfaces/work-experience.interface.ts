@@ -3,7 +3,7 @@ export interface Position {
     duration: string,
     location?: string,
     jobType?: "Full-time" | "Part-time" | "Casual" | "Contract",
-    locationType?: "On-Site" | "Remote" | "Hybrid",
+    locationType?: "On-Site" | "Remote" | "Hybrid" | "Office",
     workPoints: string[],
 }
 
